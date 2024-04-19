@@ -1,0 +1,55 @@
+site_name: 学認AAL2認証器レジストリ
+copyright: "&copy; Cyber Science Infrastructure Development Department, National Institute of Informatics"
+
+repo_url: https://github.com/gakunin/auth-reg
+repo_name: auth-reg
+
+theme:
+  name: material
+  palette:
+    primary: red
+  logo: img/GakuNin_logo_mark.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+#    - navigation.expand
+    - navigation.top
+    - toc.integrate
+#    - navigation.sections
+    - navigation.indexes
+
+
+
+nav:
+  - 登録済み認証器: index.md
+  - 認証器の詳細: 
+    - OTPデバイス: 
+      - Microsoft Authenticator: authenticator/ms_authenticator.md
+      - Google Authenticator: authenticator/g_authenticator.md
+    - 暗号デバイス: 
+      - FIDO準拠デバイス: authenticator/fido.md
+    - 暗号ソフトウェア:
+      - UPKI電子証明書発行サービス・クライアント証明書: authenticator/upki_clientcert.md
+  - 認証器運用時のリスク評価: risk_assesment.md
+#  - IdP/IDaaS製品:
+#    - idp_idaas.md
+  - 認証器レジストリとは: about.md
+  - お問い合わせ: opt.md
+
+extra:
+  homepage: https://gakunin.github.io/auth-reg/
+  generator: false
+#  alternate:
+#    - name: English
+#      link: /auth-reg/en/
+#      lang: en 
+#    - name: Japanese
+#      link: /auth-reg/
+#      lang: ja 
+
+extra_css:
+  - "css/extra.css"
+  - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+
+markdown_extensions:
+  - attr_list
