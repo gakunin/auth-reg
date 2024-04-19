@@ -1,2 +1,2 @@
-# auth-reg
- Github pages 実験用
+# 学認AAL2認証器レジストリ
+Github pages 生成用
