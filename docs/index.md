@@ -5,8 +5,9 @@ hide:
 
 
 
-# Update(最終更新日 2024/04/19)
+# Update(最終更新日 2024/04/24)
 
+- 2024/04/24 公開版
 - 2024/04/01 登録済み認証器に以下を追加
     - Google Authenticator
     - Microsoft Authenticator
