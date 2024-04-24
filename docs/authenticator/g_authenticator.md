@@ -37,5 +37,5 @@
   2024/02/29
 
 ## 4.審査結果
-  - [学認AAL2で使用する認証器のためのチェックリスト_OTPデバイス_GoogleAuthenticator_評価結果](assets/checklist_g_authenticator.xlsx)
+  - [学認AAL2で使用する認証器のためのチェックリスト_OTPデバイス_GoogleAuthenticator_評価結果](../assets/checklist_g_authenticator.xlsx)
   - [認証器運用時リスク評価シート](../risk_assesment/)
