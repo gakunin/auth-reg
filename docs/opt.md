@@ -12,8 +12,8 @@
 ### お問合せの手順について
 サインアップ/ログイン後、ご質問の内容と近いカテゴリを選び、ご質問の内容を投稿してください。
 
-回答については、gakunin-jsd_at_nii.ac.jp よりメールで配信されます。また、このシステムにログインし、右上の「リクエスト - マイリクエスト」からも確認できます。
+回答については、gakunin-jsd_at_nii-auth.atlassian.net よりメールで配信されます。また、このシステムにログインし、右上の「リクエスト - マイリクエスト」からも確認できます。
 
 回答に対する返信は、配信されたメールに返信するか、マイリクエストからご質問の課題にコメントをつけることで行えます。
 
-[お問い合わせはこちら](https://forge.gakunin.nii.ac.jp/jira/servicedesk/customer/portal/1){ .md-button .md-button--primary }
+[お問い合わせはこちら](https://nii-auth.atlassian.net/servicedesk/customer/portal/21){ .md-button .md-button--primary }

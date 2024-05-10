@@ -18,7 +18,7 @@
   単要素暗号ソフトウェア
 
 ### 公式URL
-  - https://certs.nii.ac.jp/
+  - [https://certs.nii.ac.jp/](https://certs.nii.ac.jp/)
 
 ### 提供会社
   SECOM Trust Systems Co., Ltd.
