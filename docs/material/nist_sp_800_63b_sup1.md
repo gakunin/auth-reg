@@ -5,7 +5,7 @@
 
 ## 1.NIST SP 800-63Bsup1 和訳版
 
-- [NIST SP 800-63Bsup1 和訳版](assets/NIST.SP.800-63Bsup1_JP)
+- [NIST SP 800-63Bsup1 和訳版](../assets/NIST.SP.800-63Bsup1_JP.pdf)
 
 ## 2.原文
 
