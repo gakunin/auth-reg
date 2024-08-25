@@ -34,6 +34,9 @@ nav:
 #  - IdP/IDaaS製品:
 #    - idp_idaas.md
   - 認証器レジストリとは: about.md
+  - 関連情報:
+    - 資料:
+      - NIST SP 800-63Bsup1 和訳: material/nist_sp_800_63b_sup1.md
   - お問い合わせ: opt.md
 
 extra:
