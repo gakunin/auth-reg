@@ -31,8 +31,6 @@ nav:
     - 暗号ソフトウェア:
       - UPKI電子証明書発行サービス・クライアント証明書: authenticator/upki_clientcert.md
   - 認証器運用時のリスク評価: risk_assesment.md
-#  - IdP/IDaaS製品:
-#    - idp_idaas.md
   - 認証器レジストリとは: about.md
   - 関連情報:
     - 資料:
@@ -40,15 +38,15 @@ nav:
   - お問い合わせ: opt.md
 
 extra:
-  homepage: https://gakunin.github.io/auth-reg/
+  homepage: https://level2.gakunin.jp/
   generator: false
-#  alternate:
-#    - name: English
-#      link: /auth-reg/en/
-#      lang: en 
-#    - name: Japanese
-#      link: /auth-reg/
-#      lang: ja 
+  alternate:
+    - name: English
+      link: /en/
+      lang: en 
+    - name: Japanese
+      link: /
+      lang: ja 
 
 extra_css:
   - "css/extra.css"
