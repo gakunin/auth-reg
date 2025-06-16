@@ -26,10 +26,14 @@ nav:
     - OTPデバイス: 
       - Microsoft Authenticator: authenticator/ms_authenticator.md
       - Google Authenticator: authenticator/g_authenticator.md
+      - Authenticator.cc: authenticator/authenticator_cc.md
+      - WinAuth: authenticator/winauth.md
     - 暗号デバイス: 
       - FIDO準拠デバイス: authenticator/fido.md
     - 暗号ソフトウェア:
       - UPKI電子証明書発行サービス・クライアント証明書: authenticator/upki_clientcert.md
+    - 経路外デバイス:
+      - tiqr: authenticator/tiqr.md
   - 認証器運用時のリスク評価: risk_assesment.md
   - 認証器レジストリとは: about.md
   - 関連情報:
