@@ -30,8 +30,8 @@ hide:
 | [FIDO(UAF)](authenticator/fido.md) | 1.2 Proposed Standard | FIDO Allianceの仕様に基づき設計や製造を行う認証器メーカ | Multi-Factor Cryptographic Device（多要素暗号デバイス） | 多要素 | 〇 | □ | □ | 2024/2/29 | Ver.1.0 | 2024/4/1 |
 | [UPKI電子証明書発行サービス・クライアント証明書](authenticator/upki_clientcert.md) | 2023年12月14日の仕様変更準拠 | SECOM Trust Systems Co., Ltd. | Single-Factor Cryptographic Software（単要素暗号ソフトウェア） | 単要素 | 〇 | | | 2024/3/29 | Ver.1.0 | 2024/4/1 |
 | [tiqr](authenticator/tiqr.md)          | iOS(3.3.2), Android(4.1.1) | SURF B.V.            | Out-of-Band Device（経路外デバイス）         | 単要素 | 〇 |   |   | 2025/3/31 | Ver.1.0 | 2025/3/31 |
-| [Authenticator](authenticator/authenticator_cc.md) | 8.0.1                      | mymindstorm, Sneezry | Multi-Factor OTP Device（単要素OTPデバイス） | 単要素 | 〇 |   |   | 2025/3/31 | Ver.1.0 | 2025/3/31 |
-| [WinAuth](authenticator/winauth.md)       | 3.5.1                      | Colin Mackie.        | Multi-Factor OTP Device（単要素OTPデバイス） | 単要素 | 〇 |   |   | 2025/3/31 | Ver.1.0 | 2025/3/31 |
+| [Authenticator](authenticator/authenticator_cc.md) | 8.0.1                      | mymindstorm, Sneezry | Single-Factor OTP Device（単要素OTPデバイス） | 単要素 | 〇 |   |   | 2025/3/31 | Ver.1.0 | 2025/3/31 |
+| [WinAuth](authenticator/winauth.md)       | 3.5.1                      | Colin Mackie.        | Single-Factor OTP Device（単要素OTPデバイス） | 単要素 | 〇 |   |   | 2025/3/31 | Ver.1.0 | 2025/3/31 |
 
 
 ”□"はいずれかを選択する。
