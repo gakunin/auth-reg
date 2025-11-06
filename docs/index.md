@@ -5,7 +5,7 @@ hide:
 
 
 
-# Update(最終更新日 2024/08/26)
+# Update(最終更新日 2025/06/16)
 - 2025/06/16 登録済み認証器に以下を追加
     - Authenticator(Authenticator.cc)
     - WinAuth
