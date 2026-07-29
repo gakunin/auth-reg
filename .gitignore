@@ -1,0 +1,19 @@
+# MkDocs build output
+site/
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# OS-generated files
+.DS_Store
+._*
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
