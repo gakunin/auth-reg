@@ -6,6 +6,7 @@ repo_name: auth-reg
 
 theme:
   name: material
+  language: ja
   palette:
     primary: red
   logo: img/GakuNin_logo_mark.png
