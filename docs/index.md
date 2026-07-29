@@ -5,7 +5,12 @@ hide:
 
 
 
-# Update(最終更新日 2025/06/16)
+# Update(最終更新日 2026/07/29)
+- 2026/07/29 登録済み認証器に以下を追加
+    - Appleパスワードマネージャ
+    - Googleパスワードマネージャ
+    - OTPManager
+- 2026/07/29 認証器運用時のリスク評価シートを第3版に更新（パスワードマネージャを評価対象に追加）
 - 2025/06/16 登録済み認証器に以下を追加
     - Authenticator(Authenticator.cc)
     - WinAuth
@@ -32,6 +37,9 @@ hide:
 | [tiqr](authenticator/tiqr.md)          | iOS(3.3.2), Android(4.1.1) | SURF B.V.            | Out-of-Band Device（経路外デバイス）         | 単要素 | 〇 |   |   | 2025/3/31 | Ver.1.0 | 2025/3/31 |
 | [Authenticator](authenticator/authenticator_cc.md) | 8.0.1                      | mymindstorm, Sneezry | Single-Factor OTP Device（単要素OTPデバイス） | 単要素 | 〇 |   |   | 2025/3/31 | Ver.1.0 | 2025/3/31 |
 | [WinAuth](authenticator/winauth.md)       | 3.5.1                      | Colin Mackie.        | Single-Factor OTP Device（単要素OTPデバイス） | 単要素 | 〇 |   |   | 2025/3/31 | Ver.1.0 | 2025/3/31 |
+| [Appleパスワードマネージャ](authenticator/apple_password_manager.md) | 2026/3/5時点の状況 | Apple Inc. | Memorized Secret（記憶シークレット）／Multi-Factor Cryptographic Software（多要素暗号ソフトウェア）／Single-Factor OTP Device（単要素OTPデバイス） | パスワードマネージャ | 〇 | 〇 | 〇 | 2026/3/31 | Ver.1.0 | 2026/3/31 |
+| [Googleパスワードマネージャ](authenticator/google_password_manager.md) | 2026/3/5時点の状況 | Google LLC | Memorized Secret（記憶シークレット）／Multi-Factor Cryptographic Software（多要素暗号ソフトウェア） | パスワードマネージャ | 〇 | 〇 | 〇 | 2026/3/31 | Ver.1.0 | 2026/3/31 |
+| [OTPManager](authenticator/stickybit_otp_manager.md) | 1.0.7(iOS), 2.1.9(macOS) | Sticky Bit（Carlos de Boer Ver Voorn） | Single-Factor OTP Device（単要素OTPデバイス） | 単要素 | 〇 |   |   | 2026/6/1 | Ver.1.0 | 2026/6/1 |
 
 
 ”□"はいずれかを選択する。

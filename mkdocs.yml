@@ -28,12 +28,16 @@ nav:
       - Google Authenticator: authenticator/g_authenticator.md
       - Authenticator.cc: authenticator/authenticator_cc.md
       - WinAuth: authenticator/winauth.md
-    - 暗号デバイス: 
+      - OTPManager: authenticator/stickybit_otp_manager.md
+    - 暗号デバイス:
       - FIDO準拠デバイス: authenticator/fido.md
     - 暗号ソフトウェア:
       - UPKI電子証明書発行サービス・クライアント証明書: authenticator/upki_clientcert.md
     - 経路外デバイス:
       - tiqr: authenticator/tiqr.md
+    - パスワードマネージャ:
+      - Appleパスワードマネージャ: authenticator/apple_password_manager.md
+      - Googleパスワードマネージャ: authenticator/google_password_manager.md
   - 認証器運用時のリスク評価: risk_assesment.md
   - 認証器レジストリとは: about.md
   - 関連情報:
