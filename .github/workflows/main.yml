@@ -11,4 +11,16 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force
+      # 日本語版は site/ を空にしてからビルドするので、必ず英語版より先に実行する
+      - name: Build Japanese site
+        run: mkdocs build
+      - name: Build English site (into site/en)
+        run: mkdocs build -f en/mkdocs.yml
+      # mkdocs gh-deploy と同じ引数で gh-pages ブランチへ公開する
+      # （gh-deploy は日本語版しかビルドしないため、ghp-import を直接使う）
+      - name: Deploy to GitHub Pages
+        run: |
+          MKDOCS_VERSION=$(python -c 'import mkdocs; print(mkdocs.__version__)')
+          ghp-import --no-jekyll --push --force \
+            --message "Deployed $(git rev-parse --short HEAD) with MkDocs version: ${MKDOCS_VERSION}" \
+            site
