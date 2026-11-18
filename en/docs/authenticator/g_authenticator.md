@@ -49,5 +49,5 @@ Possession-based factors (“something you have”)
 
 ## 4.Review Results
 
-- [- Checklist for Authenticators Used in GakuNin AAL2 OTP Device_GoogleAuthenticator_Evaluation Results](../assets/checklist_g_authenticator.xlsx)
+- [Checklist for Authenticators Used in GakuNin AAL2_OTP Device_GoogleAuthenticator_Evaluation Results](../assets/checklist_g_authenticator.xlsx)
 - [Risk Assessment Sheet for Authenticator Operation](../risk_assesment.md)

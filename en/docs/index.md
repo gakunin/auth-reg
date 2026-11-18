@@ -6,14 +6,14 @@ hide:
 # Updates (Last updated: 2024-08-26)
 
 - Added the following to the resources for relevant information (2024-08-26):
-- Resources
-  - NIST SP 800-63Bsup1 Japanese Translation
+    - Resources
+        - NIST SP 800-63Bsup1 Japanese Translation
 - Published Version (2024-04-24)
 - Added the following to the list of registered authenticators (2024-04-01):
-- Google Authenticator
-- Microsoft Authenticator
-- FIDO-Compliant Devices
-- UPKI Digital Certificate Issuing Service, Client Certificate
+    - Google Authenticator
+    - Microsoft Authenticator
+    - FIDO-Compliant Devices
+    - UPKI Digital Certificate Issuing Service, Client Certificate
 - Posted the Risk Assessment Sheet for Authenticator Operation (2024-04-01)
 
 # Registered Authenticators
