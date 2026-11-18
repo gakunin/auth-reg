@@ -1,0 +1,61 @@
+# 英語版サイトの設定
+#
+# 日本語版（リポジトリ直下の mkdocs.yml）とは別プロジェクトとしてビルドし、
+# /en/ 配下で公開する（Material for MkDocs が推奨する多言語サイトの構成）。
+#
+#   ローカルプレビュー:  mkdocs serve -f en/mkdocs.yml
+#   ビルド:              mkdocs build && mkdocs build -f en/mkdocs.yml
+#                        （日本語版のビルドは site/ を空にするので、必ず日本語版を先に）
+#
+# en/docs/assets, img, css は docs/ へのシンボリックリンク。
+# チェックリスト等の xlsx は日本語版と共通のファイルを参照するため、
+# 差し替えは docs/assets/ の1か所だけでよい。
+
+site_name: GakuNin AAL2 Authenticator Registry
+site_dir: ../site/en
+copyright: "&copy; Cyber Science Infrastructure Development Department, National Institute of Informatics"
+repo_url: https://github.com/gakunin/auth-reg
+repo_name: auth-reg
+theme:
+  name: material
+  language: en
+  palette:
+    primary: red
+  logo: img/GakuNin_logo_mark.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - toc.integrate
+    - navigation.indexes
+nav:
+  - Registered Authenticators: index.md
+  - Authenticator Details:
+    - OTP device:
+      - Microsoft Authenticator: authenticator/ms_authenticator.md
+      - Google Authenticator: authenticator/g_authenticator.md
+    - Cryptographic Device:
+      - FIDO-Certified Authenticator: authenticator/fido.md
+    - Cryptographic Software:
+      - UPKI Digital Certificate Issuing Service, Client Certificate: authenticator/upki_clientcert.md
+  - Risk Assessment for Authenticator Operation: risk_assesment.md
+  - What is the Authenticator Registry?: about.md
+  - Relevant information:
+    - Resources:
+      - NIST SP 800-63Bsup1 Japanese Translation: material/nist_sp_800_63b_sup1.md
+  - Contact Us: opt.md
+extra:
+  homepage: https://level2.gakunin.jp/
+  generator: false
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Japanese
+      link: /
+      lang: ja
+extra_css:
+  - "css/extra.css"
+  - "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+markdown_extensions:
+  - attr_list
